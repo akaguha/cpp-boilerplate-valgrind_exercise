@@ -4,12 +4,12 @@
 
 ## Overview
 
-This exercise explored the valgrind tool to improve code quality.
+This exercise explores the valgrind tool to improve code quality.
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/akaguha/ENPM808X.git
-cd ENPM808X/cpp-boilerplate-valgrind_exercise/
+git clone --recursive https://github.com/akaguha/cpp-boilerplate-valgrind_exercise.git
+cd cpp-boilerplate-valgrind_exercise/
 mkdir build
 cd build
 cmake ..
@@ -34,7 +34,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive https://github.com/akaguha/ENPM808X.git
+git clone --recursive https://github.com/akaguha/cpp-boilerplate-valgrind_exercise.git
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate-valgrind_exercise
@@ -43,7 +43,7 @@ In your work directory, use cmake to create an Eclipse project for an [out-of-so
 cd ~/workspace
 mkdir -p cpp-boilerplate-valgrind_exercise
 cd cpp-boilerplate-valgrind_exercise
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../ENPM808X/cpp-boilerplate-valgrind_exercise/
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate-valgrind_exercise/
 ```
 
 ## Import
